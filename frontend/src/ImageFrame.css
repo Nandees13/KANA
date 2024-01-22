@@ -1,0 +1,221 @@
+.image-frame-child {
+  width: 206px;
+  position: relative;
+  background-color: var(--color-white);
+  height: 477px;
+  display: none;
+}
+.faculty-staff3 {
+  height: 41px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.faculty-staff-frame2 {
+  align-self: stretch;
+  height: 51px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg) 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.paper-publication2 {
+  position: relative;
+  z-index: 1;
+}
+.frame-separators {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) 0 0;
+  box-sizing: border-box;
+}
+.conferences2 {
+  height: 41px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.faculty-staff-frame3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg) 0 var(--padding-11xs);
+}
+.journal3 {
+  align-self: stretch;
+  height: 41px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  padding-right: var(--padding-lg);
+  z-index: 1;
+}
+.content-frame,
+.faculty-activities3 {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  display: inline-block;
+  width: 171px;
+  height: 41px;
+  z-index: 1;
+}
+.content-frame {
+  top: -16.5px;
+  left: 169.5px;
+  width: 30px;
+  height: 18px;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+  z-index: 2;
+}
+.text-frame-delivered {
+  align-self: stretch;
+  height: 49px;
+  position: relative;
+}
+.slider-instance {
+  height: 32px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-lightblue-100);
+  z-index: 2;
+}
+.attended2 {
+  height: 30px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  margin-left: -109px;
+}
+.filter-frame1,
+.primary-button-component {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.filter-frame1 {
+  flex: 1;
+  align-items: flex-end;
+  padding: 0 var(--padding-lgi) 0 0;
+}
+.primary-button-component {
+  width: 153px;
+  align-items: flex-start;
+  padding: 0 var(--padding-smi);
+  box-sizing: border-box;
+}
+.delivered2,
+.organised1,
+.projects3,
+.received1 {
+  display: inline-block;
+  width: 158px;
+  height: 41px;
+  z-index: 1;
+}
+.delivered2 {
+  position: relative;
+  flex-shrink: 0;
+}
+.organised1,
+.projects3,
+.received1 {
+  position: absolute;
+  left: 31px;
+}
+.received1 {
+  top: 0;
+  cursor: pointer;
+}
+.organised1,
+.projects3 {
+  top: 32px;
+}
+.projects3 {
+  top: 70px;
+  left: 0;
+  width: 171px;
+  height: 39px;
+}
+.table-item-cell-item {
+  align-self: stretch;
+  height: 109px;
+  position: relative;
+  margin-top: -8px;
+}
+.download-from-cloud-rectangle,
+.placeholder-label-instance {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.download-from-cloud-rectangle {
+  align-self: stretch;
+  align-items: flex-end;
+}
+.placeholder-label-instance {
+  margin-top: -11px;
+}
+.placeholder-label-instance,
+.text-frame-attended {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.image-frame,
+.text-frame-attended,
+.text-frame-journal {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.text-frame-journal {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-12xs);
+  gap: var(--gap-7xs);
+}
+.image-frame {
+  margin: 0;
+  width: 206px;
+  background-color: var(--color-white);
+  align-items: center;
+  padding: var(--padding-25xl) 0 0 var(--padding-mini);
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 800px) {
+  .image-frame {
+    padding-top: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .attended2,
+  .conferences2,
+  .content-frame,
+  .delivered2,
+  .faculty-activities3,
+  .faculty-staff3,
+  .journal3,
+  .organised1,
+  .paper-publication2,
+  .projects3,
+  .received1 {
+    font-size: var(--font-size-base);
+  }
+}

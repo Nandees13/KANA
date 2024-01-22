@@ -1,0 +1,142 @@
+.about-the-department1,
+.the-department-of {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.about-the-department1 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  width: 484px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.the-department-of {
+  flex: 1;
+  height: 222px;
+}
+.the-department-of-computer-sci-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-16xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+}
+.to-evolve-as,
+.vision {
+  position: relative;
+  display: inline-block;
+}
+.vision {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  width: 195px;
+  height: 44px;
+  flex-shrink: 0;
+}
+.to-evolve-as {
+  flex: 1;
+  height: 61px;
+  max-width: 100%;
+}
+.mission-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl) 0 var(--padding-16xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+}
+.mission {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  height: 50px;
+  flex-shrink: 0;
+}
+.computer-science-and,
+.to-cultivate-professional {
+  margin-bottom: 0;
+}
+.computer-science-and-engineeri {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.computer-science-and-container {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  height: 246px;
+  max-width: 100%;
+}
+.our-objective {
+  width: 968px;
+  flex-direction: row;
+  padding: 0 var(--padding-mini);
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+}
+.our-objective,
+.the-departmentof-computer-scie,
+.vision-to {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.vision-to {
+  width: 1055px;
+  flex-direction: column;
+  gap: var(--gap-sm);
+}
+.the-departmentof-computer-scie {
+  align-self: stretch;
+  flex-direction: row;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 750px) {
+  .about-the-department1,
+  .mission,
+  .vision {
+    font-size: var(--font-size-10xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .about-the-department1 {
+    font-size: var(--font-size-3xl);
+  }
+  .the-department-of {
+    font-size: var(--font-size-base);
+  }
+  .vision {
+    font-size: var(--font-size-3xl);
+  }
+  .to-evolve-as {
+    font-size: var(--font-size-base);
+  }
+  .mission {
+    font-size: var(--font-size-3xl);
+  }
+  .computer-science-and-container {
+    font-size: var(--font-size-base);
+  }
+}

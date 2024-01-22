@@ -1,0 +1,267 @@
+.image-1-icon2 {
+    position: relative;
+    width: 213px;
+    height: 214px;
+    object-fit: cover;
+  }
+  .divsidenavcontainer-child {
+    position: relative;
+    background-color: var(--color-white);
+    width: 206px;
+    height: 477px;
+    display: none;
+  }
+  .faculty-staff2 {
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    height: 41px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .faculty-staff1 {
+    align-self: stretch;
+    height: 51px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-6xs) 0 var(--padding-11xs);
+    box-sizing: border-box;
+  }
+  .conferences1,
+  .paper-publication1 {
+    position: relative;
+    z-index: 1;
+  }
+  .conferences1 {
+    display: inline-block;
+    width: 171px;
+    height: 41px;
+    flex-shrink: 0;
+  }
+  .journal1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+  }
+  .paper-publication-conferences {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-8xs) 0 0;
+  }
+  .journal2 {
+    width: 171px;
+  }
+  .faculty-activities2,
+  .journal2 {
+    position: relative;
+    display: inline-block;
+    height: 41px;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .faculty-activities1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+  }
+  .div1 {
+    flex: 1;
+    position: relative;
+    transform: rotate(90deg);
+    cursor: pointer;
+    z-index: 1;
+  }
+  .faculty-activities-parent,
+  .wrapper {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .wrapper {
+    height: 19px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0 var(--padding-4xs);
+    box-sizing: border-box;
+  }
+  .faculty-activities-parent {
+    flex-direction: row;
+    align-items: center;
+  }
+  .projects2 {
+    position: relative;
+    display: inline-block;
+    width: 171px;
+    height: 41px;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .vector {
+    align-self: stretch;
+    align-items: flex-start;
+  }
+  .divsidenavcontainer,
+  .projects1,
+  .vector {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-sm);
+  }
+  .projects1 {
+    align-self: stretch;
+    align-items: flex-start;
+    padding: 0 var(--padding-12xs);
+  }
+  .divsidenavcontainer {
+    margin: 0;
+    flex: 1;
+    background-color: var(--color-white);
+    align-items: center;
+    padding: var(--padding-25xl) 11px 108px var(--padding-mini);
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-poppins);
+  }
+  .divsidenavcontainer-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 var(--padding-6xs);
+  }
+  .divsidenav-container-container,
+  .divsidenav-container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .divsidenav-container3 {
+    align-self: stretch;
+    background-color: var(--color-lightblue-100);
+    align-items: center;
+    padding: var(--padding-118xl) var(--padding-smi) var(--padding-61xl);
+    gap: var(--gap-100xl);
+  }
+  .divsidenav-container-container {
+    width: 239px;
+    align-items: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .button-userjpg1 {
+    position: relative;
+    border-radius: var(--br-6xl);
+    width: 52px;
+    height: 54px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .about-the-department {
+    position: relative;
+    width: 18px;
+    height: 11.3px;
+  }
+  .about-the-department-wrapper,
+  .button-userjpg-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-8xs);
+  }
+  .button-userjpg-group {
+    flex-direction: row;
+    align-items: center;
+    padding: 0 0 0 var(--padding-xl);
+    gap: var(--gap-mid);
+  }
+  .frame-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: var(--gap-25xl);
+    max-width: 100%;
+  }
+  .front-page,
+  .front-page-inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .front-page-inner {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-5xl) 0 0;
+    max-width: calc(100% - 270px);
+  }
+  .front-page {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    overflow: hidden;
+    flex-direction: row;
+    padding: var(--padding-12xs) var(--padding-9xl) 0 0;
+    gap: var(--gap-12xl);
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1225px) {
+    .divsidenavcontainer {
+      padding-top: var(--padding-10xl);
+      padding-bottom: 70px;
+      box-sizing: border-box;
+    }
+    .frame-container {
+      gap: var(--gap-3xl);
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .divsidenav-container3 {
+      padding-top: var(--padding-70xl);
+      padding-bottom: var(--padding-33xl);
+      box-sizing: border-box;
+    }
+    .divsidenav-container-container {
+      display: none;
+    }
+    .front-page-inner {
+      max-width: 100%;
+    }
+    .front-page {
+      gap: var(--gap-mini);
+      padding-left: var(--padding-9xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .conferences1,
+    .div1,
+    .faculty-activities2,
+    .faculty-staff2,
+    .journal2,
+    .paper-publication1,
+    .projects2 {
+      font-size: var(--font-size-base);
+    }
+    .divsidenav-container3 {
+      padding-top: var(--padding-39xl);
+      padding-bottom: var(--padding-15xl);
+      box-sizing: border-box;
+    }
+  }
+  
